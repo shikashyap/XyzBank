@@ -1,30 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Banking Application Login Page</title>
+<meta charset="ISO-8859-1">
+<title>Welcome TO XYZ BANK</title>
+<link rel="stylesheet" type="text/css" href="homebg.css">
 </head>
-<body>
-<h3>Login</h3>
-	<form action="accounts/login" method="post">
-	<table>
-	
-	<tr>
-		<th>Name</th>
-		<td><input type="text" name="user" value="user"></td> 
-	</tr>
-	<tr>
-		<th>pass</th>
-		<td><input type="password" name="password" value="password"></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td> <input type="submit" value="SUBMIT"></td>
-	</tr>
-	</table>
-	</form>
+<body   >
+<h1>WELCOME TO XYZ BANK</h1>
+<a  href="../manager.jsp">login as manager</a><br>
+<a href="../login.jsp">login as customer</a>
 
 </body>
 </html>

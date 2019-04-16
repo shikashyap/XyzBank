@@ -5,11 +5,9 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
-<link rel="stylesheet" type="text/css" href="bg.css">
+<link rel="stylesheet" type="text/css" href="bg1.css">
 </head>
 <body>
- 
- <h1> Your account balance is   ${{AA}} </h1>
- <a href="../home.jsp" >Home</a>
+WRONG MANAGER DETAILS ENTERED
 </body>
 </html>

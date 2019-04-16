@@ -8,8 +8,11 @@
 <link rel="stylesheet" type="text/css" href="bg.css">
 </head>
 <body>
- 
- <h1> Your account balance is   ${{AA}} </h1>
- <a href="../home.jsp" >Home</a>
+<form action="customer/withdraw" method="post">
+	<h3>WithDraw Operation</h3>
+	Enter Amount to Enter
+	<input type="number" name="money">
+	<input type="submit" value="withdraw">
+	</form>
 </body>
 </html>

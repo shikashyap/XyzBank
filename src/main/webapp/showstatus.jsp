@@ -8,8 +8,6 @@
 <link rel="stylesheet" type="text/css" href="bg.css">
 </head>
 <body>
- 
- <h1> Your account balance is   ${{AA}} </h1>
- <a href="../home.jsp" >Home</a>
+<h1>Password change</h1>
 </body>
 </html>

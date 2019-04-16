@@ -8,8 +8,13 @@
 <link rel="stylesheet" type="text/css" href="bg.css">
 </head>
 <body>
- 
- <h1> Your account balance is   ${{AA}} </h1>
- <a href="../home.jsp" >Home</a>
+  <form action="customer/pass" method="post">
+	<h3>Adding Operation</h3>
+	Enter Previous Password
+	<input type="text" name="previouspassword">
+	Enter New Password
+	<input type="text" name="password">
+	<input type="submit" value="change">
+	</form>
 </body>
 </html>

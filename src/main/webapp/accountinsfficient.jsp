@@ -8,8 +8,7 @@
 <link rel="stylesheet" type="text/css" href="bg.css">
 </head>
 <body>
- 
- <h1> Your account balance is   ${{AA}} </h1>
- <a href="../home.jsp" >Home</a>
+<h1> Account Balance Is Insuffficient</h1>
+<a href="../home.jsp" >Home</a>
 </body>
 </html>
